@@ -1,0 +1,235 @@
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer{
+    background-color: #0097B2;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #7AC3D0;
+    color: floralwhite;
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark{
+    background-color: #0097B2;
+}
+
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom:  1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel {
+    background: lightblue;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.btn-circle {
+  font-size: 18px;
+  color: #0097B2;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid #FF5555;
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  }
+  
+  .btn-circle i {
+    position: relative;
+    top: -1px;
+  }
+  
+  .btn-circle-sm {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 0.9rem;
+  }
+  
+  .btn-circle-lg {
+  font-size: 18px;
+  color: #0097B2;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid #0097B2;
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  }
+  
+  .btn-circle-xl {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.3rem;
+  }
+
+  .btn-circle-lg:hover {
+    color: #FFF;
+    background: #0097B2;
+    border: 2px solid rgb(6, 121, 141);
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+  
+  body {
+    background: #f8f8fd;
+    color: #514B64;
+    min-height: 100vh;
+  }
+
+
+  .login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F4F4F4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    padding: 5%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.form-control{
+    border-radius: 50px;
+}
+
+.btn-social-icon{
+    border-radius: 50px;
+}
+
+/*
+
+*/
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
